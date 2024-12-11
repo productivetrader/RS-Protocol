@@ -1,0 +1,27 @@
+contracts/
+├── active/
+│   ├── core/
+│   │   ├── RSDutchAuction.sol      // Initial price discovery & distribution
+│   │   ├── RSOptionsRewards.sol     // Manages all options (team, LP, annual)
+│   │   └── RSMasterChef.sol         // LP staking & rewards
+│   │
+│   ├── analytics/
+│   │   ├── RSAnalytics.sol          // Behavior tracking & scoring
+│   │   └── RSDistributionTracker.sol // Distribution phase tracking
+│   │
+│   ├── treasury/
+│   │   └── RSTreasury.sol           // Protocol treasury management
+│   │
+│   └── interfaces/
+│       ├── IRouter.sol
+│       ├── IPair.sol
+│       └── IPriceOracle.sol
+│
+├── archived/
+│   └── rdl/
+│       ├── RDLToken.sol             // Original RDL token
+│       ├── RDLStaking.sol           // Old staking contract
+│       ├── RDLMigration.sol         // Migration list generator
+│       └── RDLVesting.sol           // Old vesting contract
+│
+└── README.md                        // Documentation of active vs archived 
