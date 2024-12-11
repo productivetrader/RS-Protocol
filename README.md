@@ -1,13 +1,32 @@
-# Sample Hardhat Project
+# RS Protocol
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+## Overview
 
-Try running some of the following tasks:
+Protocol for fair token distribution and ongoing incentives using Dutch Auction mechanics, Options rewards, and analytics-driven bonuses.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+## Repository Structure
+
+- contracts/
+  - active/ # Current RS protocol contracts
+  - archived/ # Historical RDL contracts
+- docs/ # Technical documentation
+- scripts/ # Deployment and utility scripts
+- test/ # Test suite
+
+## Key Components
+
+- Dutch Auction for initial distribution
+- Options-based rewards system
+- Analytics-driven incentives
+- Treasury management
+
+## Documentation
+
+- [Integration Guide](docs/INTEGRATION.md)
+- [Contract Architecture](docs/ARCHITECTURE.md)
+- [Deployment Guide](docs/DEPLOYMENT.md)
+
+## Security
+
+- Audit status: Pending
+- Bug bounty: TBA
